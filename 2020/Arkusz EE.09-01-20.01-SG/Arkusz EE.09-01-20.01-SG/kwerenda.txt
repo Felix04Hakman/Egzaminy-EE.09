@@ -1,0 +1,4 @@
+SELECT id,nazwa,wystepowanie FROM ryby WHERE styl_zycia=2; 
+SELECT akwen,wojewodztwo FROM Lowisko WHERE rodzaj = '2' or '3'; 
+SELECT nazwa FROM ryby Join okres_ochronny ON ryby.id = okres_ochronny.Ryby_id where od_miesiaca =0; 
+CREATE table wndkarze (id int unsigned not null,imie text,nazwisko text,  punkty int);

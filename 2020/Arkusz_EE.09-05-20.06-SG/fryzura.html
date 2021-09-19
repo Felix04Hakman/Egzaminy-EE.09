@@ -1,0 +1,64 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="pl">
+    <head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css"> 
+<title>Usługi fryzjerskie</title>
+    </head>
+    <body>
+     <div id="lewy1">
+         <h2><a href="in_dex.html">Salon Fryzjerski</a></h2>
+         <img src="obraz2.jpg" alt="Czesanie">
+     </div>
+    
+     <div id="prawy1"><h1>MENU</h1></div>
+
+     <div id="prawy2">
+         <ol>
+             <li><a href="fryzura.html">Strzyżenie</a></li>
+             <ul>
+                 <li>krótkie</li>
+                 <li>półdługie</li>
+                 <li>długie</li>
+             </ul>
+             <li>Czesanie</li>
+             <li>Koloryzacja</li>
+         </ol>
+     </div>
+     <div id="lewy2">
+       <h3>Dziś promocja na strzyżene włosów</h3>
+       <input type="radio" name="long" id="krotkie"> Krótkie <br/>
+       <input type="radio" name="long" id="srednie"> Średnie <br/>
+       <input type="radio" name="long" id="polsrednie"> Póldługie <br/>
+       <input type="radio" name="long" id="dlugie"> Długie <br/><br/>
+
+       <button onclick="policz()">Odkryj promocję</button><br/>
+       <p id="wynik"></p>
+     </div>
+     <div id="prawy3">
+        <img src="obraz1.jpg" alt="Fryzjer">
+    </div>
+
+    </body>
+    <footer>
+    <p>Autor:90070408837</p>
+    </footer>
+    <script>
+        function policz(){
+            var cena = 0;
+         if(document.getElementById('krotkie').checked){
+          cena =25;
+         }
+         if(document.getElementById('srednie').checked){
+          cena =30;
+         }
+         if(document.getElementById('polsrednie').checked){
+          cena =40;
+         }
+         if(document.getElementById('dlugie').checked){
+          cena =50;
+         }
+         document.getElementById('wynik').innerHTML = "Cena strzyżenia:  " +cena;
+        }
+    </script>
+</html>

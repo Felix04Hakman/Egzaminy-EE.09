@@ -1,0 +1,52 @@
+header#divbanner{
+    color:white;
+    text-align:center;
+    height:330px;
+    clear:both;
+    
+}
+img#rep{
+    margin-left:25%;
+}
+
+
+#ligaa{
+    
+    color:white;
+    text-align: center;
+    width:170px;
+    margin:5px;
+    border:1px solid white;
+    border-radius: 15px;
+   float:left;
+}
+#ligaa:hover{
+    background-color: white;
+    color:black;
+}
+main{
+    color:black;
+    clear:both;
+}
+div#lewy{
+    background-color: whitesmoke;
+    width:30%;
+    text-align: center;
+    height:150px;
+    float:left;
+}
+div#prawy{
+    background-color: whitesmoke;
+    width:70%;
+    height:150px;
+    float:left;
+}
+body{
+    font-family: Verdana, sans-serif;
+    background-color: seagreen;
+}
+h3{
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="device-width,initial-scale=1.0">
+        <title>Twoje BMI</title>
+        <link rel="stylesheet" href="styl3.css">
+    </head>
+    <body>
+        <header>
+           <div id="logo">
+               <img src="wzor.png" alt="wzór BMI">
+
+           </div>
+           <div id="baner">
+               <h1>Oblicz swoje BMI</h1>
+           </div>
+        </header>
+         <main>
+            <tr>
+                <th>Interpretacja BMI</th>
+                <td>niedowaga</td>
+                <td>waga prawidłowa</td>
+                <td>nadwaga</td>
+                <td>otyłość</td>
+            </tr><tr>
+                <th>Wartość minimalna</th>
+                <td>0</td>
+                <td>19</td>
+                <td>26</td>
+                <td>31</td>
+            </tr><tr>  
+                <th>Wartość maksymalna</th>
+                <td>18</td>
+                <td>25</td>
+                <td>30</td>
+                <td>100</td>
+            </tr> 
+        </main>   
+             <div id="blok_lewy">
+                <h2>Podaj wagę i wzrost</h2>
+                <form>
+                Waga<input id="waga" name="waga"  type="number">
+                Wzrost w cm<input id="wzrost" name="Wzrost w cm" type="number">
+                <button id="oblicz()">Oblicz i zapamiętaj wynik</button>
+            </form>
+             </div>
+             <div id="blok_prawy">
+                 <img src="rys1.png" alt="ćwiczenia">
+             </div>
+         <footer>
+<p> Autor:90070408837</p>
+ <a href="kwerendy.txt">Zobacz kwerendy</a>
+         </footer>
+    </body>
+</html>

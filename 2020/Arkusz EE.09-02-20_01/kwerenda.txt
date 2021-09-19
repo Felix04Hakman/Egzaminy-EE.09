@@ -1,0 +1,4 @@
+SELECT model,kolor,stan FROM samochody where rocznik >2010; 
+UPDATE samochody SET model="Yaris" where kolor ="niebieski"; 
+CREATE USER 'joanna@localhost' IDENTIFIED BY 'joan87$' ;
+GRANT SELECT,CREATE ,ALTER ON samochody.* TO 'joanna'@'localhost'; 

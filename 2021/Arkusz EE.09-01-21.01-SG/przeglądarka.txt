@@ -1,0 +1,1 @@
+Firefox .Version 88.0.1, first offered to Release channel users on May 5, 2021

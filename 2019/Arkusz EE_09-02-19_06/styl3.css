@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+#baner-lewy, #blok-lewy{
+    float:left;
+    background-color:rgb(130, 69, 85);
+    color:#ffffff;
+    width:30%;
+    height:200px;
+    text-align: center;
+
+}
+main, footer{
+    background-color: rgb(240,234,226);
+    padding: 120px;
+    clear:both;
+}
+#baner-prawy, #blok-prawy{
+    float:left;
+    background-color: rgb(130, 69, 85);
+    color:#ffffff;
+    width:70%;
+    height:200px;
+    text-align: center;
+}
+
+table, td{
+border:1px solid rgb(130,69,85);
+color:rgb(130,69,85);
+padding:10px;
+}
+a{
+    color:rgb(240,234,226);
+}

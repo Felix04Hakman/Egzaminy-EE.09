@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-family:  Tahoma, sans-serif;
+}
+#blok_lewy,#blok_prawy {
+    background-color: rosybrown;
+    color:#ffffff;
+    width:30%;
+    height:200px;
+    text-align: center;
+    float:left;
+}
+#blok_srodkowy{
+    background-color: rosybrown;
+    color:#ffffff;
+    width:40%;
+    height:200px;
+    text-align: center;
+    float:left;
+}
+main{
+    background-color: wheat;
+    padding: 50px;
+    height:500px;
+    clear:both;
+}
+footer{
+    background-color: rosybrown;
+    color:#ffffff;
+    padding: 5px;
+    text-align: center;
+    clear:both;
+}
+ a{
+    border:solid 2px darkred;
+    background-color: salmon;
+    color:darkred;
+    padding:20px;
+    line-height: 200px;
+}

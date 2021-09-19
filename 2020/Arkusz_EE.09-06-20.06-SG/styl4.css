@@ -1,0 +1,42 @@
+body{
+    font-family:Tahoma, sans-serif;
+}
+header,footer {
+    background-color: rgb(107,142,35);
+    color:#ffffff;
+    text-align: center;
+    padding: 3px;
+    clear:both;
+}
+#top{
+    background-color: rgb(255,218,185);
+    padding: 3px;
+    clear:both;
+    width:100%;
+}
+#lewy,#prawy {
+    background-color: rgb(255,239,213);
+    width:27%;
+    height:550px;
+    float:left;
+
+}
+#srodkowy{
+background-color: rgb(255,239,213);
+width:46%;
+height: 550px;
+float:left;
+}
+h3{
+    text-align: center;
+}
+h3:first-letter{
+    color:green;
+}
+img {
+    height: 90px;
+    padding: 7px;
+}
+img:hover{
+    background-color: rgb(255,218,185);
+}

@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, sans-serif;
+}
+div#lewy ,div#prawy{
+ background-color: rgb(255,127,80);
+ color:white;
+ width:50%;
+ height: 410px;
+ float:left;
+}
+#banner, main{
+background-color: rgb(220,220,220);
+padding:20px;
+text-align: center;
+}
+footer{
+    width:100%;
+    background-color: rgb(255,127,80);
+color:white;
+height:100px;
+}
+#footer_lewy {
+width:50%;
+float:left;
+}
+#footer_prawy{
+ width:50%;
+float:left;
+}
+table,tr,td{
+ border: solid 1px rgb(255,127,80);
+ padding: 10px;
+ text-align: center;
+}
+a{
+    color:white;
+}

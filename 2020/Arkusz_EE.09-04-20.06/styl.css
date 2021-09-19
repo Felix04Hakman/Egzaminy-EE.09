@@ -1,0 +1,69 @@
+body{
+    font-family: Garamond;
+}
+
+#lewy1{
+    height: 500px;
+    width:25%;
+    background-color:Lavender;
+    float:left;
+}
+#lewy2 {
+    background-color:Lavender;
+    height: 300px;
+    width:25%;
+   float:left;
+   
+}
+
+#prawy1{
+    height: 150px;
+    width:75%;
+    background-color:indigo;
+    color:#ffffff;
+    font-size: 200%;
+    text-align: center;
+   float:right;
+ 
+}
+#prawy2 {
+    height:650px;
+    width:75%;
+    background-color: lavender;
+    color:white;
+    font-size: 200%;
+    text-align: center;
+  
+   float:right;
+      
+}
+
+footer{
+    background-color: indigo;
+    color:white;
+    text-align: right;
+    clear:both;
+}
+img{
+    padding:5px;
+    margin:10px;
+   float:left;
+    }
+#obraz2{
+    padding:5px;
+    margin:10px;
+}
+
+#obraz2:hover {
+    padding: 4px;
+    border:1px solid indigo;
+}
+ul>li {
+    list-style-type:square;
+}
+p{
+    clear:left;
+    text-align: center;
+    padding: 10px;
+    color:black;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+        <html lang="PL"> 
+<head>    
+<meta charset="utf-8">
+<link rel="stylesheet" href="styl.css" type="text/css">
+<title>Usługi kosmetyczne</title>
+    </head>
+   <body>
+      
+            <div id="lewy1">
+               <h2> "W ofercie"</h2>
+               <ul>
+                   <ol><li><a href="twarz.html">Zabiegi na twarz</a></li>
+                    <li>Piling</li>
+                    <li>Maska</li>
+                    <li>Regulacja brwi</li>
+                   </ol>
+                   <li>Masaż</li>
+                   <li>Diety oczyszczające</li>
+                   <a href="i_ndex.html">Do strony głównej</a>
+               </ul>
+               </div>
+            </div>
+           
+            <div id="prawy1">
+                <h1>Salon kosmetyczny</h1>
+             </div>
+            <div id="prawy2">
+             <h2>Sprawdź swoje ceny</h2>
+             <input type="checkbox" id="piling"> Piling <br/>
+             <input type="checkbox" id="maska"> Masaka <br/>
+             <input type="checkbox" id="twarzy"> Masaż twarzy <br/>
+             <input type="checkbox" id="brwi"> Regulacja brwi  <br/>
+             <button onclick="policz()">Sprawdź cenę</button><br/>
+               <p id="wynik">   </p>
+            </div>
+        
+            <div id="lewy2">
+                <img src="obraz1.jpg" alt="kosmetyczka">
+             </div>
+        <footer><p>Autor:90070408837</p></footer>
+        <script>
+            function policz(){
+               var cena = 0;
+               if(document.getElementById('piling').checked) cena += 45;
+               if(document.getElementById('maska').checked) cena += 30;
+               if(document.getElementById('twarzy').checked) cena += 20;
+               if(document.getElementById('brwi').checked) cena += 5;
+               document.getElementById('wynik').innerHTML = "Cena zabiegów: "+cena;
+               
+            }
+          
+        </script>
+    </body>
+</html>

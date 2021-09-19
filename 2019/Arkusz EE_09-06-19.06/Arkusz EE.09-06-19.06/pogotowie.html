@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Pogotowie Ratunkowe</title>
+        <link rel="stylesheet" href="styl5.css">
+    </head>
+    <body>
+        <header>
+            <div id="blok1">
+                <img src="obraz.jpg" alt="pogotowie">
+            </div>
+            <div id="blok2">
+                <h1>Pogotowie <br/>Ratunkowe</h1>
+            </div>
+            <div id="blok3">
+                <p>Kontakt:<br/>022 222 11 333</p>
+            </div>
+
+        </header>
+        <main>
+          <form action="zgloszenie.php" method="POST"><br/><br/>
+            <section name="zgloszenie">
+              <label for="ratID" >Numer zespołu ratowniczego</label><br/><br/>
+              <input type="number"  name="rID" id="ratID" ><br/><br/>
+
+              <label for="dyspID" >Numer dyspozytora</label><br/><br/>
+              <input type="number" name="dID"id="dyspID" ><br/><br/>
+
+              <label for="adresID" >Adres</label><br/><br/>
+              <input type="text" name="adres" id="adresID"  ><br/><br/>
+              <input type="reset" name="reset" value="Wyczyść"> 
+              <input type="submit" name="submit" value="Dodaj">
+            </section>
+          </form>
+        </main>
+        <footer>
+            <div id="blok1">
+                Numery alarmowe:
+                <ol>
+                    <li>999</li>
+                    <li>112</li>
+                </ol>
+            </div>
+            <div id="blok2">
+                <a href="kwerenda.txt" target="_blank">Pobierz kwerendy</a>
+            </div>
+            <div id="blok3">
+                <p>Autor: <br/> 90070408837</p>
+            </div>
+        </footer>
+    </body>
+</html>
